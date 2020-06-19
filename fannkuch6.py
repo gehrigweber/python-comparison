@@ -51,6 +51,6 @@ def fannkuch(n):
                     return maxFlipsCount
             count[r] -= 1
 from sys import argv
-n = int(argv[1])
+n = 3
 
 print(( "Pfannkuchen(%i) = %i" % (n, fannkuch(n)) ))
